@@ -32,22 +32,10 @@
   grid-template-columns: 1fr 1fr;
 }
 
-@media (max-width: 775px) {
-  .second-container {
-    grid-template-columns: none;
-  }
-}
-
 .first-section {
   background-color: hsl(179, 64%, 35%);
   padding: 3rem 2rem;
   border-bottom-left-radius: 0.5rem;
-}
-
-@media (max-width: 775px) {
-  .first-section {
-    border-bottom-left-radius: 0;
-  }
 }
 
 .second-section-header {
@@ -96,12 +84,6 @@
   background-color: hsl(179, 36%, 52%);
   padding: 3rem 2rem;
   border-bottom-right-radius: 0.5rem;
-}
-
-@media (max-width: 775px) {
-  .second-section {
-    border-bottom-left-radius: 0.5rem;
-  }
 }
 
 .body-text-container {
